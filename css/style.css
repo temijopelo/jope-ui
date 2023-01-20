@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   .container{
+    height: 100%;
+    font-family: Helvetica, sans-serif;
+   }
+   .main_container{
+    background: rgba(0, 0, 0, 0.7);
+    background-image: url(../img/joel-filipe-RFDP7_80v5A-unsplash\ 1.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    
+   }
+   header{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 35px;
+    margin-bottom: 30px;
+   }
+  header .nav{
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+    margin-right: auto;
+    padding: 25px;
+    margin-left: 50px;
+   }
+   .nav a{
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+   }
+   aside{
+    padding: 25px;
+   }
+  
+  .passage h1{
+    font-family: 'Times New Roman', Times, serif;
+    width: 1000px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 95px;
+    line-height: 100px;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    margin-left: 80px;
+    padding: 5px;
+
+   }
+   .passage p{
+    margin-top: 10px;
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    opacity: 0.8;
+    width: 720px;
+    margin: 30px auto 50px 80px;
+    padding: 5px;
+   }
+   .container_m{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+    margin-top: 150px;
+   }
+.container_m .location{
+    flex: 1;
+}
+.container_m .location hr{
+    opacity: 0.2;
+    width: 800px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+.container_m .location p{
+    margin-left: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: #FFFFFF;
+
+    opacity: 0.6;
+}
+.container_m .images_container{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+.container_m .images_container .img_1{
+    margin-top: -100px;
+}
+
+.container_m .images_container .img_2{
+    margin-top: -100px;
+}
+.container_m .images_container .img_3{
+    margin-top: -100px;
+}
+
+.container_m .images_container .top_text{
+    position: absolute;
+    margin-top: -200px;
+    padding: 20px;
+    font-family: 'Yellix';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #1F1F1F;
+}
+
+.container_m .images_container .low_text{
+    position: absolute;
+    margin-top: -200px;
+    padding: 40px 20px;
+    font-family: 'Yellix';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+
+    text-transform: uppercase;
+
+    color: #9099A0;
+}
+
+.lower_container{
+    margin-left: 30px;
+    padding: 86px;
+    width: 1000px;
+    font-family: 'Approach';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+
+    color: #5C5C5C;
+
+    opacity: 0.8;
+
+}
+
+.bottom_container{
+    display: float;
+    flex-direction: row;
+    gap: 1rem;
+    height: 500px;
+    overflow: hidden;
+
+
+}
+.bottom_container .text_horizontal{
+    float: left;;
+    margin-left: 20px;
+    padding: 0px 80px 30px 80px;
+    width: 1000px;
+}
+
+.bottom_container .text_horizontal p{
+    margin: 20px;
+    font-family: 'Approach';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+    
+
+    letter-spacing: -0.03em;
+
+    color: #222222;
+
+}
+
+.bottom_container .text_horizontal hr{
+    opacity: 0.3;
+    border: 0.5px solid #000000;
+    margin-left: 20px;
+}
+
+.bottom_container .img_map{
+    float: right;
+}
+
+.bottom_container .img_map .top_img{
+    position: absolute;
+    right: 20px;
+    size: 20px;
+}
+
+.bottom_container .img_map .vector_2{
+    position: absolute;
+    right: 20px;
+    margin-top: 200px;
+}
+
+.bottom_container .img_map .vector_0{
+    position: absolute;
+    right: 85px;
+    margin-top: 250px;
+}
+
+.bottom_container .img_map .vector_4{
+    position: absolute;
+    margin-top: 250px;
+    right: 0;
+}
+
+.bottom_container .img_map .vector_3{
+    position: absolute;
+    margin-top: 300px;
+    right: 20px;
+}
+
+
+   
+   
